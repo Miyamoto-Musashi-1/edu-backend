@@ -7,7 +7,4 @@ export class User {
 
   @Column() // Specifies a regular column
   name: string;
-
-  @Column()
-  age: number;
 }
